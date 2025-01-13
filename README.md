@@ -1,7 +1,13 @@
 <h1 align="center">
-  <span style="display: inline-block; font-size: 40px;">Hi 👋,</span>
-  <span style="display: inline-block; font-size: 40px;">I'm</span>
-  <span style="display: inline-block; font-size: 40px;" class="typewriter">Pritam Priyabrata Palai</span>
+  Hi 👋, I'm  
+  <span>
+    <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="70" fill="#0e75b6" font-size="40" font-family="monospace">
+        <tspan id="text1">Pritam Priyabrata Palai</tspan>
+        <animate attributeName="x" from="-500" to="0" dur="3s" fill="freeze" repeatCount="1" />
+      </text>
+    </svg>
+  </span>
 </h1>
 <h3 align="center">A passionate full-stack web developer from India</h3>
 
@@ -65,18 +71,3 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pritampriyabratapalai" alt="GitHub Streak Stats" />
 </p>
-
-<style>
-  @keyframes typewriter {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  .typewriter {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid #0e75b6;
-    animation: typewriter 3s steps(22) infinite alternate;
-  }
-</style>
